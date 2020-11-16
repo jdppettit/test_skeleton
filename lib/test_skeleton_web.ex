@@ -29,7 +29,7 @@ defmodule TestSkeletonWeb do
   def view do
     quote do
       use Phoenix.View,
-        root: "lib/mood_web/templates",
+        root: "lib/test_skeleton_web/templates",
         namespace: TestSkeletonWeb
 
       # Import convenience functions from controllers
